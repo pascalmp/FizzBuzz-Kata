@@ -29,5 +29,11 @@ public class FizzBuzzKataTest {
 		
 		assertEquals("2", testObject.fizzBuzz(2));
 	}
+	
+	//test test if testObject will return Fizz if passed a multiple of three
+	@Test
+	public void testObcjectShouldReturnFizzWhenPassedAMultipleOfThree(){
+		assertEquals("Fizz", testObject.fizzBuzz(3));
+	}
 
 }
