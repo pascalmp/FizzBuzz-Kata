@@ -7,7 +7,7 @@ public class FizzBuzz {
 	}
 
 	public String fizzBuzz(Integer inputNum) {
-		return "1";
+		return inputNum.toString();
 	}
 
 }
